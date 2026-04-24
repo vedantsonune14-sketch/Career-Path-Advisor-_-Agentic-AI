@@ -195,12 +195,7 @@ h2, h3 { font-family: 'Syne', sans-serif !important; font-weight: 700 !important
 # ─────────────────────────────────────────
 st.markdown('<div class="hero-title">Career Path Advisor</div>', unsafe_allow_html=True)
 st.markdown('<div class="hero-sub">AI-powered career roadmaps for engineering students — backed by live market data</div>', unsafe_allow_html=True)
-st.markdown("""
-<span class="tag">🤖 ReAct Agent</span>
-<span class="tag">🔍 Tavily Search</span>
-<span class="tag">⚖️ LLM-as-Judge</span>
-<span class="tag">✨ Gemini AI</span>
-""", unsafe_allow_html=True)
+
 
 # ─────────────────────────────────────────
 # INPUT FORM
