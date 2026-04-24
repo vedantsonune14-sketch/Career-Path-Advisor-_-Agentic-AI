@@ -255,8 +255,7 @@ if generate_btn:
     st.markdown("<hr class='divider'>", unsafe_allow_html=True)
 
     # ── Agent Thinking Display ───────────────────────────────────────────
-    st.markdown("### 🤖 Agent Reasoning")
-    agent_placeholder = st.empty()
+    
 
     try:
         with st.spinner("Agent is reasoning and searching the web..."):
@@ -278,16 +277,6 @@ if generate_btn:
         )
         st.stop()
 
-    # Show thought log
-    thoughts_html = ""
-    for label, content in thought_log:
-        thoughts_html += f"""
-        <div class="thought-step">
-            <div class="thought-label">{label}</div>
-            <div class="thought-content">{content}</div>
-        </div>
-        """
-    agent_placeholder.markdown(thoughts_html, unsafe_allow_html=True)
 
     # ── Judge ────────────────────────────────────────────────────────────
     try:
