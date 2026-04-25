@@ -97,7 +97,8 @@ career-advisor-agent/
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/YOUR_USERNAME/career-advisor-agent.git
+https://github.com/vedantsonune14-sketch/Career-Path-Advisor-_-Agentic-AI
+https://github.com/sid05dh/Career-Path-Advisor-_-Agentic-AI
 cd career-advisor-agent
 ```
 
