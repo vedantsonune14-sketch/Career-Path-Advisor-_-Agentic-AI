@@ -7,7 +7,7 @@
 
 ## 🚀 Live Demo
 
-🌐 **[Add your Streamlit app URL here after deployment]**
+🌐 (https://career-path-advisor--agentic-ai-x3gwxgkfsirps9nm64tq4t.streamlit.app/)
 
 ---
 
@@ -116,10 +116,9 @@ pip install -r requirements.txt
 
 Example `.env`:
 ```env
-GROQ_API_KEY=your_groq_key_here
-TAVILY_API_KEY=your_tavily_key_here
-# Optional fallback:
-# GEMINI_API_KEY=your_gemini_key_here
+GROQ_API_KEY=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
+TAVILY_API_KEY=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
+
 ```
 
 Get your keys:
@@ -152,11 +151,9 @@ git push -u origin main
 4. Set **Main file path** to `app.py`
 5. In **Advanced settings → Secrets**, add:
 ```toml
-GROQ_API_KEY = "your_groq_key_here"
-TAVILY_API_KEY = "your_tavily_key_here"
-# Optional fallback:
-# GEMINI_API_KEY = "your_gemini_key_here"
-```
+GROQ_API_KEY=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
+TAVILY_API_KEY=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
+
 6. Click **Deploy**
 
 The app will install dependencies from `requirements.txt` automatically.
@@ -180,8 +177,8 @@ The judge evaluates every roadmap on 5 criteria (2 marks each = 10 total):
 ## 👥 Team
 
 | Member 
-  Vedant Sonune
-  Siddh Agrawal
+  Vedant Sonune(46)
+  Siddh Agrawal(50)
 |
 ---
 
