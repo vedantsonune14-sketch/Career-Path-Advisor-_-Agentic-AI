@@ -343,6 +343,5 @@ st.markdown("<hr class='divider'>", unsafe_allow_html=True)
 st.markdown("""
 <div style="text-align:center; color:#374151; font-size:0.8rem; padding-bottom:1rem;">
     Built with groq · Tavily Search · Streamlit &nbsp;|&nbsp; 
-    Introduction to Agentic AI Systems — Semester IV B.E. ECE
 </div>
 """, unsafe_allow_html=True)
